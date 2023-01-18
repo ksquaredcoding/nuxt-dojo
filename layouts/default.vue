@@ -16,9 +16,11 @@
         </ul>
       </nav>
     </header>
+
     <div>
       <slot />
     </div>
+
   </div>
 </template>
 

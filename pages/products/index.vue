@@ -9,6 +9,9 @@
 <script>
 export default {
   setup() {
+    definePageMeta({
+      layout: "products"
+    })
     return {}
   }
 }
