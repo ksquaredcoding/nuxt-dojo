@@ -6,7 +6,7 @@
       </div>
       <div class="p-7">
         <h2 class="text-4xl my-7">{{ product.title }}</h2>
-        <p class="text-xl my-7">Price - ${{ product.price }}</p>
+        <p class="text-xl my-7">Price - ${{ product.price.toFixed(2) }}</p>
         <h3 class="font-bold border-b-0 mb-4 pb-2">Product Description:</h3>
         <p class="mb-7">{{ product.description }}</p>
       </div>
