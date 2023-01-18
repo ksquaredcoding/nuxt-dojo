@@ -6,15 +6,12 @@
 </template>
 
 
-<script>
-export default {
-  setup() {
-    definePageMeta({
-      layout: "products"
-    })
-    return {}
-  }
-}
+<script setup>
+definePageMeta({
+  layout: "products"
+})
+await useFetch('')
+
 </script>
 
 

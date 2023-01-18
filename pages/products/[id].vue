@@ -7,18 +7,13 @@
 </template>
 
 
-<script>
-export default {
-  setup() {
-    const { id } = useRoute().params
-    definePageMeta({
-      layout: "products"
-    })
-    return {
-      id
-    }
-  }
-}
+<script setup>
+
+const { id } = useRoute().params
+definePageMeta({
+  layout: "products"
+})
+
 </script>
 
 
