@@ -12,7 +12,7 @@
 
 <script setup>
 
-const { data } = await useFetch('/api/ninja')
+const { data } = await useFetch('/api/currency/GBP')
 
 </script>
 
